@@ -1,0 +1,263 @@
+@import url(../css/base/_reset.css);
+@import url(../css/base/_variaveis.css);
+
+body {
+    font-family: var(--familia-corpo);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    margin: auto;
+    justify-content: center;
+    width: 1440px;
+}
+
+.cabecalho {
+
+    box-sizing: border-box;
+
+    display: flex;
+
+    padding: 1rem 0;
+    height: 80px;
+
+    justify-content: space-around;
+}
+
+.cabecalho__logo {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    color: var(--cinza);
+}
+
+.cabecalho__logo--imagem {
+    padding: .5rem;
+}
+
+.cabecalho__menu {
+    width: 770px;
+    display: flex;
+    align-items: center;
+    color: var(--cinza);
+}
+
+.cabecalho__link {
+    display: inline-block;
+    padding-right: 2rem;
+}
+
+.cabecalho__botao {
+    display: flex;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.botao {
+    color: var(--cinza);
+    text-align: center;
+    width: 100%;
+    padding: .8rem 1rem;
+    border-radius: .5rem;
+    border: none;
+    margin: .5rem;
+    font-weight: 500;
+    font-size: .9rem;
+}
+
+.botao__vermelho {
+    background-color: var(--vermelho);
+    color: var(--branco);
+}
+
+.sobre {
+    padding: 6rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.sobre__titulo {
+    font-size: 1rem;
+    color: var(--vermelho);
+    font-weight: 600;
+    padding-bottom: 2.5rem;
+}
+
+.sobre__subtitulo {
+    font-size: 3rem;
+    font-weight: 600;
+    padding-bottom: 2.5rem;
+}
+
+.sobre__texto {
+    font-size: 1.125rem;
+    color: var(--cinza);
+}
+
+.metricas {
+    display: flex;
+    height: 287px;
+    box-sizing: border-box;
+    text-align: left;
+    justify-content: space-around;
+}
+
+.metrica__numero {
+    color: var(--vermelho);
+    font-weight: 600;
+    font-size: 3.5rem;
+    padding-bottom: 1rem;
+}
+
+.metrica__titulo {
+    padding-bottom: 1rem;
+    font-weight: 500;
+    font-size: 1.1rem;
+}
+
+.metrica__texto {
+    color: var(--cinza);
+    font-size: .9rem;
+}
+
+.vagas {
+    display: inline;
+    height: 400px;
+    padding: 55px 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.vagas__titulo {
+    font-size: .9rem;
+    color: var(--vermelho);
+    font-weight: 600;
+    padding-bottom: 2.5rem;
+}
+
+.vagas__subtitulo {
+    font-size: 3rem;
+    font-weight: 600;
+    padding-bottom: 2.5rem;
+}
+
+.vagas__texto {
+    font-size: 1.25rem;
+    color: var(--cinza);
+    padding-bottom: 3.5rem;
+}
+
+.vagas__imagem {
+    padding: 3rem;
+}
+
+.vagas-abertas {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    padding: 0 0 0 19rem;
+}
+
+.vagas-abertas__area {
+    font-weight: bold;
+    font-size: 1.5rem;
+    padding-bottom: 3rem;
+
+}
+
+.vagas-abertas__titulo {
+    font-weight: bold;
+    font-size: 1.1rem;
+    padding: 0 0 2rem 3rem;
+}
+
+.vagas-abertas__descricao {
+    display: flex;
+    padding: 0 0 3rem 3rem;
+    gap: 3rem;
+    color: var(--cinza);
+}
+
+.depoimentos {
+    text-align: center;
+}
+
+.depoimentos__titulo {
+    color: var(--vermelho);
+    font-size: .8rem;
+    font-weight: bold;
+    padding-bottom: 2rem;
+}
+
+.depoimentos__texto {
+    font-size: 2.1rem;
+    padding-bottom: 2rem;
+}
+
+.depoimentos__nome {
+    padding-top: 1rem;
+    font-weight: bold;
+    font-size: .9rem;
+}
+
+.depoimentos__cargo {
+    color: var(--cinza);
+    font-size: .8rem;
+}
+
+.rodape {
+    text-align: center;
+    padding-top: 7rem;
+}
+
+.rodape__texto {
+    font-size: 2.1rem;
+    padding-bottom: 2rem;
+}
+
+.rodape__subtexto {
+    color: var(--cinza);
+}
+
+/* .rodape__cadastro {
+    display: flex;
+    /* box-sizing: border-box;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    padding: 0 35rem; 
+} */
+
+.rodape__cadastro {
+    box-sizing: border-box;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 12px 14px 12px 16px;
+    gap: 8px;
+
+    width: 360px;
+    height: 48px;
+
+    margin: 0 auto;
+}
+
+input {
+    width: 100%;
+    height: 100%;
+}
+
+.rodape__copy {
+    font-size: .9rem;
+    color: gray;
+    padding-bottom: 3rem;
+}

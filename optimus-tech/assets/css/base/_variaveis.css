@@ -1,0 +1,17 @@
+:root {
+    --vermelho: #8E2424;
+    --branco: #FFFFFF;
+    --cinza: #667085;
+    --preto: #101828;
+
+    --familia-corpo: 'Inter', sans-serif;
+
+    /* --peso-titulo-destaque: 900;
+    --peso-botao: 700;
+    --peso-destaque: 700;
+    
+    --tamanho-corpo: 1rem;
+    --tamanho-titulo: 1.375rem;
+    --tamanho-titulo-destaque: 2rem;
+    --tamanho-destaque: 1.375rem; */
+}
